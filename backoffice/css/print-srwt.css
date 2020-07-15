@@ -1,0 +1,62 @@
+@media print, screen {
+html{ font-family:Tahoma, Geneva, sans-serif; font-size:8pt; width:650px;}
+.box-print-wrap {	border:1px solid #d5d5d5;	overflow:hidden;}
+.clr{ clear:both;}
+.left-head, .cen-head, .right-head {	vertical-align:middle;}
+.left-head {	float:left;	width:160px;	border-right:1px solid #d5d5d5;	padding:13px 0 14px 10px; font-size:6pt; height:30px;}
+.cen-head {	text-align:center;	float:left;	width:240px;	padding:10px 0 0 0;}
+.cen-head h1 {	font-size:20px;	font-weight:normal; padding:0; margin:0;}
+.right-head {	float:left;	width:220px;	border-left:1px solid #d5d5d5;	padding:0px 0 0px 0px;}
+.box-desc{ width:90px;}
+.tr-desc{ height:auto; border-bottom:1px solid #d5d5d5; overflow:hidden;}
+.td-desc{ border-right:1px solid #d5d5d5; float:left; width:100px; padding:5px 0 5px 5px;}
+.no-border{ border:none;}
+.td-desc input[type="text"]{ width:100px; border:none; font-size:9pt; border-bottom:1px dotted #d5d5d5; color:#CCC;}
+.td-desc input[type="text"]:focus{ color:#666;}
+.head-table{ overflow:hidden; border-bottom:1px solid #d5d5d5;}
+.tr-status{ padding:5px; border-bottom:1px solid #d5d5d5;}
+.tr-comment{ overflow:hidden; border-bottom:1px solid #d5d5d5;}
+ .td-left-comment{ float:left; width:150px; border-right:1px solid #d5d5d5;} 
+ .td-left-comment2{ float:left; width:80px; border-right:1px solid #d5d5d5;}
+ .td-left-comment5{ float:left; width:544px; border-right:1px solid #d5d5d5;}
+.no-border-r{ border-right:none;}
+.no-border-b{ border-bottom:none;}
+.num{ width:30px; padding:3px; text-align:center; border-bottom:1px solid  #d5d5d5; border-right:1px solid  #d5d5d5; float:left;}
+.head-title{ float:left; width:80px; height:25px; padding:10px 0 0 0px; text-align:center}
+.head-title p{ line-height:1.25; padding:0; margin:0;}/
+.head-num{ overflow:hidden; border-bottom:1px solid #d5d5d5; width:300px;} 
+.input-multi{ width:90%; height:50px; background-image:url(../images/line.png); border:none; padding:10px;}
+.mh{ height:20px;}
+.detail-signature{ padding:10px 0 0px 30px; overflow:hidden;}
+.detail-signature p{ overflow:hidden;} 
+.signature-line{ width:150px; border:none; border-bottom:1px dotted #d5d5d5; float:left; margin:0 0 10px 0; text-align:center; font-family:Tahoma, Geneva, sans-serif; font-size:9pt;}
+
+.cus-name-line{ width:180px; border:none; border-bottom:1px dotted #d5d5d5; float:left; margin:0 0 10px 0; text-align:left; font-family:Tahoma, Geneva, sans-serif; font-size:9pt;}
+
+.cus-card-line{ width:250px; border:none; border-bottom:1px dotted #d5d5d5; float:left; margin:0 0 10px 0; text-align:left; font-family:Tahoma, Geneva, sans-serif; font-size:9pt;}
+
+.cus-mail-line{ width:300px; border:none; border-bottom:1px dotted #d5d5d5; float:left; margin:0 0 10px 0; text-align:left; font-family:Tahoma, Geneva, sans-serif; font-size:9pt;}
+
+.cus-tel-line{ width:220px; border:none; border-bottom:1px dotted #d5d5d5; float:left; margin:0 0 10px 0; text-align:left; font-family:Tahoma, Geneva, sans-serif; font-size:9pt;}
+
+.name-td{ float:left; display:compact; width:70px; display:block;}
+.cus-card-td{ float:left; display:compact; width:60px; display:block;}
+.cus-name-td{ float:left; display:compact; width:100px; display:block;}
+.cus-email-td{ float:left; display:compact; width:35px; display:block;}
+
+.white{ color:#FFF;}
+.detail-signature label {	display: block;	float: left;}
+.thick{}
+.thick-detail{ padding:15px 0 0 30px; }
+.ww{ width:175px;}
+.wtime{ width: 50px; margin:0 10px 0 0; margin:0 0 5px 0;}
+.wmn{ width:35px;}
+.wtimelong{ width:75px; text-align:right; padding:0 5px 0 0;}
+.sent-time{ overflow:hidden; margin:0 0 10px 0;}  
+.input-name{ padding:25px 0 13px 10px;}
+.line{ width:200px; border:none; font-size:9pt; border-bottom:1px dotted #d5d5d5; color:#CCC;}
+.line:focus{ width:350px; border:none; font-size:9pt; border-bottom:1px dotted #d5d5d5; color:#333;}
+.align-left{ text-align:left; width:90px;}
+.thick-detail p { padding:0; margin:0;}
+.pd{ overflow:hidden; margin:0 0 0 65px;}
+}
